@@ -14,6 +14,7 @@
 		5A5A348C2794288300020EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A348B2794288300020EAD /* Assets.xcassets */; };
 		5A5A348F2794288300020EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5A348D2794288300020EAD /* LaunchScreen.storyboard */; };
 		5A5A349727942E2800020EAD /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A349627942E2800020EAD /* EmojiTableViewController.swift */; };
+		5A5A3499279439D200020EAD /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A3498279439D200020EAD /* EmojiTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5A5A348E2794288300020EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A5A34902794288300020EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5A349627942E2800020EAD /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		5A5A3498279439D200020EAD /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5A5A34842794288100020EAD /* SceneDelegate.swift */,
 				5A5A34862794288100020EAD /* ViewController.swift */,
 				5A5A349627942E2800020EAD /* EmojiTableViewController.swift */,
+				5A5A3498279439D200020EAD /* EmojiTableViewCell.swift */,
 				5A5A34882794288100020EAD /* Main.storyboard */,
 				5A5A348B2794288300020EAD /* Assets.xcassets */,
 				5A5A348D2794288300020EAD /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				5A5A349727942E2800020EAD /* EmojiTableViewController.swift in Sources */,
 				5A5A34872794288100020EAD /* ViewController.swift in Sources */,
+				5A5A3499279439D200020EAD /* EmojiTableViewCell.swift in Sources */,
 				5A5A34832794288100020EAD /* AppDelegate.swift in Sources */,
 				5A5A34852794288100020EAD /* SceneDelegate.swift in Sources */,
 			);
