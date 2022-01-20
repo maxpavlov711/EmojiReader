@@ -10,7 +10,7 @@
         <!--Emoji Table View Controller-->
         <scene sceneID="dmj-Vm-Xzt">
             <objects>
-                <tableViewController id="37L-wk-HnL" customClass="EmojiTableViewController" customModule="EmojiReader" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="EmojiTableViewController" id="37L-wk-HnL" customClass="EmojiTableViewController" customModule="EmojiReader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="9Eo-bg-wGU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r28-HO-kqv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="863.768115942029" y="70.982142857142847"/>
+            <point key="canvasLocation" x="986" y="71"/>
         </scene>
         <!--New Emoji Table View Controller-->
         <scene sceneID="nSv-ZP-DgS">
@@ -205,7 +205,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvV-A6-bCJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="wTp-XD-Wf4" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2553.6231884057975" y="70.982142857142847"/>
+            <point key="canvasLocation" x="2494" y="71"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5uO-i5-R0w">
@@ -223,7 +223,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7q-fw-ldk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-46.376811594202906" y="70.982142857142847"/>
+            <point key="canvasLocation" x="217" y="71"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZcL-7t-eT0">
@@ -242,11 +242,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pF2-6F-OfN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1755" y="71"/>
+            <point key="canvasLocation" x="1752" y="71"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="24Q-zA-P6e"/>
+        <segue reference="f7Q-kh-745"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">

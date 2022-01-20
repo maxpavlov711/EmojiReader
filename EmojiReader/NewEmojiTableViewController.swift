@@ -9,13 +9,13 @@ import UIKit
 
 class NewEmojiTableViewController: UITableViewController {
 
+    var emoji = Emoji(emoji: "", name: "", description: "", isFavorite: false)
+    
     @IBOutlet weak var emojiTextFiend: UITextField!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var descriptionTextField: UITextField!
     
     @IBOutlet weak var saveButton: UIBarButtonItem!
-    
-    var emoji = Emoji(emoji: "", name: "", description: "", isFavorite: false)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class NewEmojiTableViewController: UITableViewController {
         updateSaveButtonState()
     }
     
-    @IBAction func textChanget(_ sender: Any) {
+    @IBAction func textChanget(_ sender: UITextField) {
         updateSaveButtonState()
     }
 
